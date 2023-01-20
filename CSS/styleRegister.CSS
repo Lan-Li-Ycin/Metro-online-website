@@ -1,0 +1,100 @@
+form {
+width: 50%; /* Задает ширину формы */
+margin: auto; /* Центрирует форму по горизонтали */
+display: flex; /* Отображает форму как flex-контейнер */
+flex-wrap: wrap; /* Разрешает перенос элементов на новую строку */
+align-items: center; /* Выравнивает элементы по центру по вертикали */
+justify-content: center; /* Выравнивает элементы по центру по горизонтали */
+padding: 20px; /* Задает отступы вокруг формы */
+border: 2px solid rgba(0, 0, 0, 0.3); /* Задает рамку вокруг формы */
+border-radius: 10px; /* Задает скругление углов */
+}
+form input {
+width: 100%; /* Задает ширину поля ввода */
+margin: 10px 0; /* Задает отступы вокруг поля ввода */
+padding: 12px 20px; /* Задает отступы внутри поля ввода */
+box-sizing: border-box; /* Включает учет отступов и рамки в расчете ширины и высоты элемента */
+}
+.button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border-radius: 10px; /* Задает скругление углов */
+box-shadow: 0 0 10px #ccc; /* Задает тень */
+transition: background-color 0.3s ease;  /*Задает плавность перехода */
+}
+
+.button:hover {
+background-color: #444; /* Задает цвет при наведении */
+}
+body {
+background-size: cover;
+background-repeat: no-repeat;
+}
+header {
+background-color: rgba(51, 51, 51, 0.2);
+color: #fff;
+padding: 10px;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 20px;
+display: inline-block;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 20px;
+display: inline-block;
+box-shadow: 0 0 10px #ccc;
+}
+.logo {
+width: 70px;
+height: auto;
+display: block;
+margin: 2;
+padding: 5px;
+border-radius: 10px;
+box-shadow: 0 0 10px #ccc;
+}
+header nav {
+text-align: center;
+}
+main{
+width: auto;
+height: auto;
+display: block;
+margin: auto;
+padding: 50px;
+}
+h1 {
+text-align: center; /* Задает выравнивание текста внутри h1 */
+}
+video#bg-video {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1;
+transform: translate(-50%, -50%);
+}
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: rgba(51, 51, 51, 0.2);
+color: #fff;
+padding: 0;
+text-align: center;
+left: 0;
+right: 0;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+}
